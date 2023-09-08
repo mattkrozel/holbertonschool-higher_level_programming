@@ -10,4 +10,4 @@ for argument in sys.argv:
         total += int(argument)
     else:
         i += 1
-    print("{:d}".format(total))
+print("{:d}".format(total))
