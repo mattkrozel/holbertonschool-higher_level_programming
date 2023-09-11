@@ -4,4 +4,4 @@ def no_c(my_string):
     for x in my_string:
         if x not in "Cc":
             finalstring = finalstring + x
-        return (finalstring)
+    return (finalstring)
