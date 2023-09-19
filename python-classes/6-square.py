@@ -61,12 +61,12 @@ class Square:
         prints in stdout the square with # characters
         '''
         if self.__size == 0:
-            print("")
+            print()
         for x in range(self.postion[1]):
-            print("")
+            print()
         for x in range(self.size):
             for y in range(self.position[0]):
                 print(end="")
             for z in range(self.size):
                 print("#", end="")
-            print("")
+            print()
