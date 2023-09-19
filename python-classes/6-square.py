@@ -35,6 +35,9 @@ class Square:
 
     @property
     def position(self):
+        '''
+        finds position
+        '''
         return self.__position
 
     @position.setter
@@ -63,7 +66,7 @@ class Square:
         if self.__size == 0:
             print("")
             return
-        for y in range(0, self.postion[1]):
+        for y in range(0, self.position[1]):
             print("")
         for i in range(0, self.__size):
             for x in range(0, self.position[0]):
