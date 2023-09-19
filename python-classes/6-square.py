@@ -15,10 +15,6 @@ class Square:
         '''
         initializing size and position of square
         '''
-        if type(size) is not int:
-            raise TypeError("size must be an integer")
-        if size < 0:
-            raise ValueError("size must be >= 0")
         self.size = size
         self.position = position
 
@@ -29,10 +25,6 @@ class Square:
         '''
         return self.__size
 
-    @property
-    def position(self):
-        return self.__position
-
     @size.setter
     def size(self, value):
         if type(value) is not int:
@@ -40,6 +32,10 @@ class Square:
         if value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
+
+    @property
+    def position(self):
+        return self.__position
 
     @position.setter
     def position(self, value):
