@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 0-square.py
+# 1-square.py
 # Matt Krozel
 '''
 file creating class for square
