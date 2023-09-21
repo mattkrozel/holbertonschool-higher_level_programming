@@ -29,7 +29,7 @@ class Rectangle:
 
         for x in range(self.__height):
             for y in range(self.__width):
-                string+= "#"
+                string += "#"
             if x < self.__height - 1:
                 string += "\n"
         return string
