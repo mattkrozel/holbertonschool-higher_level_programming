@@ -38,8 +38,7 @@ class Rectangle:
         '''
         repr method for object t=rectangle
         '''
-        return "Rectangle(" + str(self.__width) + ", " + str(self.__height) + /
-    ")"
+        return f"Rectangle({self.width}, {self.height})"
 
     @property
     def width(self):
