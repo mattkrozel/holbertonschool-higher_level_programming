@@ -1,2 +1,9 @@
 #!/usr/bin/python3
+# 0-lookup.py
+# Matt Krozel
 
+def lookup(obj):
+    '''
+    return list of available attributes and methods
+    '''
+    return dir(obj)
