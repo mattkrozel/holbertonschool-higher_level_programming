@@ -4,6 +4,8 @@
 '''
 function that returns list
 '''
+
+
 def lookup(obj):
     '''
     return list of available attributes and methods
