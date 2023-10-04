@@ -2,6 +2,11 @@
 # base.py
 # Matt Krozel
 
+'''
+file creating a base class
+'''
+import json
+
 
 class Base:
     '''
