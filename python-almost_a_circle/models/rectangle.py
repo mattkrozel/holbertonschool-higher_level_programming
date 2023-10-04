@@ -22,3 +22,31 @@ class Rectangle(Base):
         self.x = x
         self.y = y
         super().__init__(id)
+
+    @property
+    def width(self):
+        '''
+        gets width of rectangle
+        '''
+        return self.__width
+
+    @property
+    def height(self):
+        '''
+        gets height of rectangle
+        '''
+        return self.__height
+
+    @property
+    def x(self):
+        '''
+        gets x coordinates
+        '''
+        return self.__x
+
+    @property
+    def y(self):
+        '''
+        gets y coordinates
+        '''
+        return self.__y
