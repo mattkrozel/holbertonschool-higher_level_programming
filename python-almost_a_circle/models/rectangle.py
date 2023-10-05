@@ -113,3 +113,10 @@ class Rectangle(Base):
             [print(' ', end='') for x in range(self.x)]
             [print('#', end='') for w in range(self.width)]
             print('')
+
+    def __str__(self):
+        '''
+        returns str format of rect
+        '''
+        return '[Rectangle] ({}) {}/{} - {}/{}'.format(self.id, self.x, self.y,
+                self.width, self.height)
