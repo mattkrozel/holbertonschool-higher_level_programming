@@ -11,7 +11,7 @@ if __name__ == '__main__':
     password = argument[2]
     databasename = argument[3]
     db = MySQLdb.connect(host='localhost', user=username,
-                         passwrd=password, db = databasename, port=3306)
+                         passwd=password, db = databasename, port=3306)
     curs=db.cursor()
     numberrows = curs.execute('SELECT * FROM states ORDER BY states.id;')
     rows = curs.fetchall()
