@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# model_state.py
+# matt Krozel
 '''
 script defines state and base class to work
 with sqlalchemy
